@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var PORT = 5000                     // 8080 must be the port to deploy on openshift
+var PORT = 8080                     // 8080 must be the port to deploy on openshift
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
